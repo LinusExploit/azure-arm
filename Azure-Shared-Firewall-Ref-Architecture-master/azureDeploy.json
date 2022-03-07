@@ -107,11 +107,10 @@
             }
         },
         "imageSku": {
-            "defaultValue": "bundle1",
+            "defaultValue": "byol",
             "allowedValues": [
-                "byol",
-                "bundle1",
-                "bundle2"
+                "byol"
+              
             ],
             "type": "String",
             "metadata": {
@@ -773,7 +772,7 @@
             },
             "plan": {
                 "name": "[parameters('imageSku')]",
-                "product": "vmseries1",
+                "product": "vmseries-flex",
                 "publisher": "paloaltonetworks"
             },
             "properties": {
