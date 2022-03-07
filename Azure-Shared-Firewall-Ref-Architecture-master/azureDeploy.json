@@ -144,7 +144,8 @@
                 "latest",
                 "9.0.4",
                 "8.1.9",
-                "8.0.17"
+                "8.0.17",
+                "10.1.4"
             ],
             "type": "String",
             "metadata": {
@@ -791,7 +792,7 @@
                 "storageProfile": {
                     "imageReference": {
                         "publisher": "paloaltonetworks",
-                        "offer": "vmseries1",
+                        "offer": "vmseries-flex",
                         "sku": "[parameters('imageSku')]",
                         "version": "[parameters('imageVersion')]"
                     },
