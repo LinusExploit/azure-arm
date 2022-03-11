@@ -42,4 +42,4 @@ Everything resource in the template is built strictly with variables.  The varia
 Most deployment failures are due to conflicts with existing resources.  If this is your first time running the template, it is recommended to launch the template into a **new** resource group.  If you cannot deploy to a new resource group, it is highly recommended to use the `optional-Append String To Resources` parameter to append a string to all newly created resources.  This will avoid potential naming conflicts among any existing resources.
 
 
-[<img src="http://azuredeploy.net/deploybutton.png"/>](https://portal.azure.com/#create/Microsoft.Template/uri/https://github.com/LinusExploit/azure-arm/blob/master/Azure-Common-Deployments/v1/2fw_3nic_avset_intlb_extlb_appgw/Deploy.json?raw=true)
+[<img src="http://azuredeploy.net/deploybutton.png"/>](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fgithub.com%2FLinusExploit%2Fazure-arm%2Fblob%2Fmaster%2FAzure-Common-Deployments%2Fv1%2F2fw_3nic_avset_intlb_extlb_appgw%2FDeploy.json%3Fraw%3Dtrue)
